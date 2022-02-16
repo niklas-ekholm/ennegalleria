@@ -1,7 +1,7 @@
 # next steps
 
-- git lab ci/cd
-- obsidian integration
+- deploy through vercel
+
 
 # tutorial
 
