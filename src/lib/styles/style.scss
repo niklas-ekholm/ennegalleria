@@ -1,0 +1,110 @@
+/* style.scss */
+
+
+/* 
+read this article about THEMING:
+https://medium.com/@dmitriy.borodiy/easy-color-theming-with-scss-bc38fd5734d1
+or look at this CODEPEN
+https://codepen.io/dmitriy_borodiy/pen/RKzwJp
+*/
+
+
+@keyframes color {
+  0%   { background: #ffa631; }
+  25%  { background: #fc6124; }
+  50%  { background: #f872c3; }
+  75%  { background: #fc6124; }
+  100% { background: #ffa631; }
+}
+
+@keyframes vars {
+  0%   {font-variation-settings: "opsz" 100, "srfs" 30, "wght" 200;}  
+  25%  {font-variation-settings: "opsz" 100, "srfs" 30, "wght" 400;} 
+  50%  {font-variation-settings: "opsz" 100, "srfs" 100, "wght" 400;} 
+  75%  {font-variation-settings: "opsz" 100, "srfs" 0, "wght" 400;} 
+  100% {font-variation-settings: "opsz" 100, "srfs" 30, "wght" 200;}
+}
+
+@font-face { 
+  font-family: "Oro";
+  font-weight: 100 400;
+  // src: url("Oro-Enne.otf");
+  src: url("OroVF.woff2");
+}
+
+body {
+  margin: 0;
+  background: #fc6124;
+	color:  #f872c3;
+  width: 100%;
+  font: 8vw "Oro", sans-serif;
+  line-height: 0.9;
+  font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
+  -moz-font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
+  -webkit-font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
+  -ms-font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
+  -o-font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
+  font-variation-settings: "opsz" 100, "srfs" 30, "wght" 380;
+  // animation: vars 43s infinite ease both;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  word-wrap: break-word;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+main {
+  padding: 0;
+  margin: 2vw 0 34vw 0;
+}
+
+h1 {
+  font-size: 14vw;
+  line-height: 0.8;
+  margin: 0.05vw 0 -0.05vw 0;
+  font-variation-settings: "opsz" 100, "srfs" 30, "wght" 300;
+  margin-block-start: 0.05em !important;
+  margin-block-end: -0.05em !important;
+  margin-inline-start: 0px !important;
+  margin-inline-end: 0px !important;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 11vw;
+  line-height: 0.74;
+  font-variation-settings: "opsz" 100, "srfs" 30, "wght" 320;
+  margin-block-start: 0.05em !important;
+  margin-block-end: -0.05em !important;
+  margin-inline-start: 0px !important;
+  margin-inline-end: 0px !important;
+  font-weight: normal;
+}
+
+p {
+  margin-block-start: 0em !important;
+  margin-block-end: 0em !important;
+  margin-inline-start: 0px !important;
+  margin-inline-end: 0px !important;
+  font-weight: normal;
+}
+
+a {
+  color:  #f872c3;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+em {
+  font-family: "HTS-One",sans-serif;
+  font-size: 4.5vw;
+  line-height: 1;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+}
