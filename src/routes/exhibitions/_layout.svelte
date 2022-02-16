@@ -4,11 +4,11 @@
   export let title
   export let start
   export let end
-  let src = '/static/assets/placeholder.svg';
-	let alt = 'Image';
+  // let src = '/static/assets/placeholder.svg';
+	// let alt = 'Image';
 </script>
 
-<img {src} alt="{alt}">
+<!-- <img {src} alt="{alt}"> -->
 
 
 <h1>
