@@ -4,7 +4,7 @@
   export let title
   export let start
   export let end
-  let src = '/src/routes/exhibitions/assets/placeholder.svg';
+  let src = '/static/assets/placeholder.svg';
 	let alt = 'Image';
 </script>
 
