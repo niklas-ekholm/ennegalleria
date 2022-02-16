@@ -20,16 +20,17 @@
 		}
     
   }
-	</script>
+</script>
 
 <script> // This is the "normal" client-side script
 	export let exhibitions
-	</script>
+</script>
 
+<em>exhibitions</em>
 <ul>
 	{#each exhibitions as exhibition}
 	<li>
-		<a href={exhibition.path}><h1> {exhibition.meta.title} </h1> {exhibition.meta.date}
+		<a href={exhibition.path}><h1> {exhibition.meta.title} </h1> {exhibition.meta.start} — {exhibition.meta.end}
 		</a>
 	</li>
 	<br/>

@@ -1,7 +1,9 @@
 # next steps
 
-- deploy through vercel
-
+- images through markdown
+- themes (colorful/black&white)
+- email
+- current exhibition to frontpage based on date
 
 # tutorial
 

@@ -2,17 +2,24 @@
 
 <script>
   export let title
-  export let date
+  export let start
+  export let end
+  let src = '/src/routes/exhibitions/assets/placeholder.svg';
+	let alt = 'Image';
 </script>
+
+<img {src} alt="{alt}">
+
 
 <h1>
   {title}
 </h1>
 <p>
-  {date}
+  {start} — {end}
 </p>
   
-
+<br>
+<br>
 <br>
 
 <slot />
