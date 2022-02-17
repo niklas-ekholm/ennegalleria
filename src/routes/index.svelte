@@ -21,9 +21,8 @@
 <style>
 	.upcoming {
 		position: fixed;
-		bottom: 9vh;
-		margin-top: 12vh;
-		margin-bottom: 12vh;
+		width: 100vw;
+		bottom: 14vh;
 	}
 	
 	img {
@@ -32,7 +31,7 @@
 		bottom: 10vh;
 		right: 0;
 		margin: 0;
-		max-height: 50vh;
+		max-height: 33vh;
 		max-width: 50vw;
 		opacity: 70%;
 	}

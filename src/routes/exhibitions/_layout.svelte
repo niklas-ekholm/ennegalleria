@@ -15,7 +15,7 @@
 		top: 21vh;
 		right: 0;
 		margin: 0;
-		height: 21vh;
+		height: 44vh;
     opacity: 70%;
 	}
 </style>
