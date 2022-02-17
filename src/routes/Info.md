@@ -11,4 +11,4 @@ Helsinki 00180
 
 during exhibitions only
 
-10:00 — 20:00
+13:00 — 19:00
