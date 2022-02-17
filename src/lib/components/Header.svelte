@@ -1,16 +1,20 @@
 <!-- Header.svelte -->
 <style>
 	header {
-		height: 12vw;
+		position: fixed;
+		top: 0;
+		height: 10vh;
 		margin: 0;
 		padding: 0.5vw 0;
-		width: 100%;
-		color: #ff7b00;;
-		background: rgb(255, 123, 0);
+		width: 100vw;
+		color: hsl(33, 100%, 50%);;
+		background: #ff7b00;
 		animation: color 18s infinite linear;
 	}
 
 	nav {
+		position: fixed;
+		top: 0;
 		margin: 0;
 		padding: 0;
 		display: flex;
@@ -31,7 +35,7 @@
 		text-decoration: none;
 		color: inherit;
 	}
-	
+
 </style>
 <header>
 	<nav>

@@ -4,7 +4,7 @@
 	ul {
 		list-style-type: none;
 		padding: 0;
-		margin: 1vw 0;
+		margin: 0;
 	}
 </style>
 
@@ -26,13 +26,15 @@
 	export let exhibitions
 </script>
 
-<em>exhibitions</em>
-<ul>
-	{#each exhibitions as exhibition}
-	<li>
-		<a href={exhibition.path}><h1> {exhibition.meta.title} </h1> {exhibition.meta.start} — {exhibition.meta.end}
-		</a>
-	</li>
-	<br/>
-	{/each}
-</ul>	
+<content>
+	<em>exhibitions</em>
+	<ul>
+		{#each exhibitions as exhibition}
+		<li>
+			<a href={exhibition.path}><h1> {exhibition.meta.title} </h1> {exhibition.meta.start} — {exhibition.meta.end}
+			</a>
+		</li>
+		<br/>
+		{/each}
+	</ul>	
+</content>

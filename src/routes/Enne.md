@@ -1,5 +1,5 @@
+*Enne*
 *([fin](https://en.wiktionary.org/wiki/enne))*
-Enne
 *[IPA](https://en.m.wiktionary.org/wiki/Wiktionary:International_Phonetic_Alphabet "Wiktionary:International Phonetic Alphabet")*
 */ˈenːeˣ/*
 

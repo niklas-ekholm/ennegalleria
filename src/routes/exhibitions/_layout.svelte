@@ -4,13 +4,25 @@
   export let title
   export let start
   export let end
-  // let src = '/static/assets/placeholder.svg';
-	// let alt = 'Image';
+  let src = '/static/assets/mouth.jpg';
+	let alt = 'Misa Asanuma';
 </script>
 
-<!-- <img {src} alt="{alt}"> -->
+<style>
+  img {
+		z-index: -99999;
+		position: fixed;
+		top: 21vh;
+		right: 0;
+		margin: 0;
+		height: 21vh;
+    opacity: 70%;
+	}
+</style>
 
+<img {src} alt="{alt}">
 
+<content>
 <h1>
   {title}
 </h1>
@@ -23,3 +35,4 @@
 <br>
 
 <slot />
+</content>

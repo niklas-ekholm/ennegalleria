@@ -1,6 +1,14 @@
 *contact*
+
 # Enne·Galleria
-*Lönnrotinkatu 31 LH 2*
-*Helsinki 00180*
-*@enne.galleria*
-*info@ennegalleria.art*
+
+*address*
+
+Lönnrotinkatu 31 LH 2
+Helsinki 00180
+
+*open*
+
+during exhibitions only
+
+10:00 — 20:00

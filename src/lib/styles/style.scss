@@ -37,7 +37,7 @@ body {
   background: #fc6124;
 	color:  #f872dd;
   width: 100%;
-  font: 8vw "Oro", sans-serif;
+  font: 6.6vw "Oro", sans-serif;
   line-height: 0.9;
   font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
   -moz-font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
@@ -55,7 +55,15 @@ body {
 
 main {
   padding: 0;
-  margin: 2vw 0 34vw 0;
+  margin: 0;
+}
+
+content {
+  position: absolute;
+  top: 12vh;
+  width: 100vw;
+  z-index: -999;
+  padding-bottom: 33vh;
 }
 
 h1 {
@@ -71,7 +79,7 @@ h1 {
 }
 
 h2 {
-  font-size: 11vw;
+  font-size: 10vw;
   line-height: 0.8;
   font-variation-settings: "opsz" 100, "srfs" 30, "wght" 320;
   margin-block-start: 0.05em !important;
@@ -90,7 +98,7 @@ p {
 }
 
 a {
-  color:  #f872c3;
+  color:  #f872dd;
   text-decoration: none;
 }
 
@@ -102,18 +110,8 @@ ul {
 
 em {
   font-family: "HTS-One",sans-serif;
-  font-size: 4.5vw;
-  line-height: 1;
+  font-size: 3.3vw;
   font-style: normal;
   font-weight: normal;
   text-transform: none;
-}
-
-img {
-  z-index: -99999;
-  position: fixed;
-  top: 6vw;
-  right: 0;
-  margin: 0;
-  max-width: 75vw;
 }

@@ -13,14 +13,39 @@
 </script>
 
 <script> // This is the "normal" client-side script
-	import Enne from '/src/routes/Enne.md' 
 	export let exhibitions
-
+  let src = '/static/assets/mouth.jpg';
+	let alt = 'Image';
 </script>
 
+<style>
+	.upcoming {
+		position: fixed;
+		bottom: 9vh;
+		margin-top: 12vh;
+		margin-bottom: 12vh;
+	}
+	
+	img {
+		z-index: -99999;
+		position: absolute;
+		bottom: 10vh;
+		right: 0;
+		margin: 0;
+		max-height: 50vh;
+		max-width: 50vw;
+		opacity: 70%;
+	}
+</style>
 
+<content>
+	<h1>
+		<a href="/info">Enne·Galleria</a>
+	</h1>
+</content>
 
-{#each exhibitions as exhibition}
+<div class="upcoming">
+	{#each exhibitions as exhibition}
 	{#if exhibition.meta.start == "2022-02-24" }
 	<a href="{exhibition.path}">
 		<em>upcoming exhibition</em>
@@ -29,7 +54,7 @@
 		<br>
 	</a>
 	{/if}
-{/each}
+	{/each}
+</div>
 
-
-<Enne />
+<img {src} alt="{alt}">
