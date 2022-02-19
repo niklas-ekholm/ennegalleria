@@ -3,13 +3,13 @@
 	header {
 		position: fixed;
 		top: 0;
-		height: 10vh;
+		height: 8vw;
 		margin: 0;
 		padding: 0.5vw 0;
 		width: 100vw;
-		color: hsl(33, 100%, 50%);;
+		color: #ff8800;;
 		background: #ff7b00;
-		animation: color 18s infinite linear;
+		animation: bg 18s infinite linear;
 	}
 
 	nav {
@@ -32,17 +32,20 @@
 	}
 
 	a {
-		text-decoration: none;
 		color: inherit;
+	}
+
+	.ss03 {
+		font-feature-settings: "ss03";
 	}
 
 </style>
 <header>
 	<nav>
 		<ul>
-			<li><a href="/">/ˈenːeˣ/</a></li>·
-			<li><a href="/exhibitions">exhibitions</a></li>·
-			<li><a href="/info">info</a></li>
+			<a class="ss03" href="/"><li>/ˈenːeˣ/</li></a>·
+			<a href="/exhibitions"><li>exhibitions</li></a>·
+			<a href="/info"><li>info</li></a>
 		</ul>
 	</nav>
 </header>

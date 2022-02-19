@@ -6,6 +6,9 @@
 		padding: 0;
 		margin: 0;
 	}
+	li {
+		padding-bottom: 1vw;
+	}
 </style>
 
 <script context="module"> // Runs before the component is created
@@ -27,11 +30,10 @@
 </script>
 
 <content>
-	<em>exhibitions</em>
 	<ul>
 		{#each exhibitions as exhibition}
 		<li>
-			<a href={exhibition.path}><h1> {exhibition.meta.title} </h1> {exhibition.meta.start} — {exhibition.meta.end}
+			<a href={exhibition.path}><p>{exhibition.meta.start} — {exhibition.meta.end}</p><h2> {exhibition.meta.title} </h2>
 			</a>
 		</li>
 		<br/>

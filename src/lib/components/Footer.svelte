@@ -1,6 +1,6 @@
 <style>
 	footer {
-		height: 10vh;
+		height: 8vw;
 		margin: 0;
 		padding: 0;
 		position: fixed;
@@ -8,7 +8,8 @@
 		width: 100%;
 		color: #ff7b00;;
 		background: #ff7b00;
-	  animation: color 12s infinite linear;
+	  animation: bg 12s infinite linear;
+		
 	}
 	a {
 		position: fixed;

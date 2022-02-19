@@ -9,36 +9,52 @@ https://codepen.io/dmitriy_borodiy/pen/RKzwJp
 */
 
 
-@keyframes color {
-  0%   { background: #ffa631; }
+
+
+@keyframes bg {
+  0%   { background: #ffaa33; }
   25%  { background: #fc6124; }
-  50%  { background: #f872c3; }
+  50%  { background: #ff66ee; }
   75%  { background: #fc6124; }
-  100% { background: #ffa631; }
+  100% { background: #ffaa33; }
 }
 
-@keyframes vars {
-  0%   {font-variation-settings: "opsz" 100, "srfs" 30, "wght" 200;}  
-  25%  {font-variation-settings: "opsz" 100, "srfs" 30, "wght" 400;} 
-  50%  {font-variation-settings: "opsz" 100, "srfs" 100, "wght" 400;} 
-  75%  {font-variation-settings: "opsz" 100, "srfs" 0, "wght" 400;} 
-  100% {font-variation-settings: "opsz" 100, "srfs" 30, "wght" 200;}
+@keyframes clr {
+  0%   { color: #ffaa33; }
+  50%  { color: #ff66ee; }
+  100% { color: #ffaa33; }
 }
 
 @font-face { 
   font-family: "Oro";
   font-weight: 100 400;
-  // src: url("Oro-Enne.otf");
   src: url("OroVF.woff2");
 }
+
+@font-face { 
+  font-family: "Oro-JP";
+  font-weight: 100 400;
+  src: url("Oro-Enne-JP.woff2");
+}
+@font-face {
+  font-family: HTS1-mono;
+  src: url("HTS-One-Mono.woff2");
+}
+
+
 
 body {
   margin: 0;
   background: #fc6124;
-	color:  #f872dd;
+	color:  #ff66ee;
+  animation: clr 21s infinite linear;
   width: 100%;
-  font: 6.6vw "Oro", sans-serif;
-  line-height: 0.9;
+  font-family: "HTS-One",sans-serif;
+  font-size: 2.6vw;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+  line-height: 1;
   font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
   -moz-font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
   -webkit-font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
@@ -49,7 +65,6 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
   word-wrap: break-word;
-  text-transform: uppercase;
   font-weight: normal;
 }
 
@@ -60,46 +75,64 @@ main {
 
 content {
   position: absolute;
-  top: 12vh;
+  top: 9vw;
   width: 100vw;
   z-index: -999;
   padding-bottom: 33vh;
+}
+
+h1,h2,h3,h4,h5,h6,nav {
+  font-family: "Oro", "Oro-JP", sans-serif;
+  margin-block-start: 0.05em !important;
+  margin-block-end: -0.05em !important;
+  margin-inline-start: 0px !important;
+  margin-inline-end: 0px !important;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-feature-settings: "case";
 }
 
 h1 {
   font-size: 14vw;
   line-height: 0.8;
   margin: 0.05vw 0 -0.05vw 0;
-  font-variation-settings: "opsz" 100, "srfs" 30, "wght" 300;
-  margin-block-start: 0.05em !important;
-  margin-block-end: -0.05em !important;
-  margin-inline-start: 0px !important;
-  margin-inline-end: 0px !important;
-  font-weight: normal;
+  font-variation-settings: "opsz" 100, "srfs" 30, "wght" 240;
 }
 
 h2 {
   font-size: 10vw;
-  line-height: 0.8;
-  font-variation-settings: "opsz" 100, "srfs" 30, "wght" 320;
-  margin-block-start: 0.05em !important;
-  margin-block-end: -0.05em !important;
-  margin-inline-start: 0px !important;
-  margin-inline-end: 0px !important;
-  font-weight: normal;
+  line-height: 0.85;
+  font-variation-settings: "opsz" 100, "srfs" 30, "wght" 280;
+}
+
+h3,nav {
+  font-size: 8vw;
+  line-height: 0.9;
+  font-variation-settings: "opsz" 100, "srfs" 30, "wght" 300;
 }
 
 p {
-  margin-block-start: 0em !important;
-  margin-block-end: 0em !important;
+  font-size: 2.9vw;
+  margin-block-start: 0.3em !important;
+  margin-block-end: 0.5em !important;
   margin-inline-start: 0px !important;
   margin-inline-end: 0px !important;
   font-weight: normal;
 }
 
 a {
-  color:  #f872dd;
+  color: inherit;
   text-decoration: none;
+}
+
+a :hover {
+  opacity: 70%;
+  z-index: -999;
+}
+
+img :hover {
+  opacity: 100%;
+  z-index: 999;
 }
 
 ul {
@@ -110,8 +143,13 @@ ul {
 
 em {
   font-family: "HTS-One",sans-serif;
-  font-size: 3.3vw;
+  font-size: 2.666vw;
   font-style: normal;
   font-weight: normal;
   text-transform: none;
+}
+
+img {
+  float: right;
+  width: 50vw;
 }
