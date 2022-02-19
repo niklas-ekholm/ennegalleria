@@ -6,6 +6,12 @@
   export let end
 </script>
 
+<style>
+	.body {
+		margin-top: 39vw;
+	}
+</style>
+
 <content>
 <p>
 	{start} — {end}
@@ -18,5 +24,7 @@
 <br>
 <br>
 
-<slot />
+<div class="body">
+	<slot />
+</div>
 </content>

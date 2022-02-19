@@ -14,14 +14,14 @@ https://codepen.io/dmitriy_borodiy/pen/RKzwJp
 @keyframes bg {
   0%   { background: #ffaa33; }
   25%  { background: #fc6124; }
-  50%  { background: #ff66ee; }
+  50%  { background: #ff77ee; }
   75%  { background: #fc6124; }
   100% { background: #ffaa33; }
 }
 
 @keyframes clr {
   0%   { color: #ffaa33; }
-  50%  { color: #ff66ee; }
+  50%  { color: #ff77ee; }
   100% { color: #ffaa33; }
 }
 
@@ -46,7 +46,7 @@ https://codepen.io/dmitriy_borodiy/pen/RKzwJp
 body {
   margin: 0;
   background: #fc6124;
-	color:  #ff66ee;
+	color:  #ff77ee;
   animation: clr 21s infinite linear;
   width: 100%;
   font-family: "HTS-One",sans-serif;
@@ -83,29 +83,36 @@ content {
 
 h1,h2,h3,h4,h5,h6,nav {
   font-family: "Oro", "Oro-JP", sans-serif;
-  margin-block-start: 0.05em !important;
-  margin-block-end: -0.05em !important;
-  margin-inline-start: 0px !important;
-  margin-inline-end: 0px !important;
   font-weight: normal;
   text-transform: uppercase;
   font-feature-settings: "case";
 }
 
 h1 {
+  margin-block-start: 0.13em !important;
+  margin-block-end: -0.13em !important;
+  margin-inline-start: 0px !important;
+  margin-inline-end: 0px !important;
   font-size: 14vw;
   line-height: 0.8;
-  margin: 0.05vw 0 -0.05vw 0;
   font-variation-settings: "opsz" 100, "srfs" 30, "wght" 240;
 }
 
 h2 {
+  margin-block-start: 0.13em !important;
+  margin-block-end: -0.13em !important;
+  margin-inline-start: 0px !important;
+  margin-inline-end: 0px !important;
   font-size: 10vw;
   line-height: 0.85;
   font-variation-settings: "opsz" 100, "srfs" 30, "wght" 280;
 }
 
 h3,nav {
+  margin-block-start: 0.07em !important;
+  margin-block-end: -0.07em !important;
+  margin-inline-start: 0px !important;
+  margin-inline-end: 0px !important;
   font-size: 8vw;
   line-height: 0.9;
   font-variation-settings: "opsz" 100, "srfs" 30, "wght" 300;
@@ -113,7 +120,7 @@ h3,nav {
 
 p {
   font-size: 2.9vw;
-  margin-block-start: 0.3em !important;
+  margin-block-start: 0.1em !important;
   margin-block-end: 0.5em !important;
   margin-inline-start: 0px !important;
   margin-inline-end: 0px !important;
@@ -150,6 +157,13 @@ em {
 }
 
 img {
-  float: right;
-  width: 50vw;
+  opacity: 70%;
+}
+
+p img {
+  width: 75vw;
+  position: absolute;
+  top: 25vw;
+  right: 0;
+  z-index: -999;
 }
