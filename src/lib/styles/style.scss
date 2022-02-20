@@ -81,11 +81,12 @@ content {
   padding-bottom: 33vh;
 }
 
-h1,h2,h3,h4,h5,h6,nav {
+h1,h2,h3,h4,h5,h6,nav,em {
   font-family: "Oro", "Oro-JP", sans-serif;
   font-weight: normal;
   text-transform: uppercase;
   font-feature-settings: "case";
+  font-variation-settings: "opsz" 100, "srfs" 30, "wght" 400;
 }
 
 h1 {
@@ -146,14 +147,6 @@ ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-}
-
-em {
-  font-family: "HTS-One",sans-serif;
-  font-size: 2.666vw;
-  font-style: normal;
-  font-weight: normal;
-  text-transform: none;
 }
 
 img {
