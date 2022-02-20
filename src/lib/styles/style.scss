@@ -37,7 +37,7 @@ https://codepen.io/dmitriy_borodiy/pen/RKzwJp
   src: url("Oro-Enne-JP.woff2");
 }
 @font-face {
-  font-family: HTS1-mono;
+  font-family: "HTS-One-Mono";
   src: url("HTS-One-Mono.woff2");
 }
 
@@ -49,7 +49,7 @@ body {
 	color:  #ff77ee;
   animation: clr 21s infinite linear;
   width: 100%;
-  font-family: "HTS-One",sans-serif;
+  font-family: "HTS-One-Mono",sans-serif;
   font-size: 2.6vw;
   font-style: normal;
   font-weight: normal;
