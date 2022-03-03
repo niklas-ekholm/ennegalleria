@@ -20,6 +20,6 @@
 
 <footer>
 	<a href="https://www.instagram.com/enne.galleria/">
-		<em>@enne.galleria</em>
+		<p>@enne.galleria</p>
 	</a>
 </footer>
