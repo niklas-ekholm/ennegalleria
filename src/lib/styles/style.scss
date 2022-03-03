@@ -28,17 +28,20 @@ https://codepen.io/dmitriy_borodiy/pen/RKzwJp
 @font-face { 
   font-family: "Oro";
   font-weight: 100 400;
-  src: url("OroVF.woff2");
+  src: url(https://api.helsinkitypestudio.com/uploads/Oro_VF_d315c4302a.woff2)
+    format("woff2");
 }
 
 @font-face { 
   font-family: "Oro-JP";
   font-weight: 100 400;
-  src: url("Oro-Enne-JP.woff2");
+  src: url(https://api.helsinkitypestudio.com/uploads/Oro_Enne_JP_f79528b31f.woff2)
+    format("woff2");
 }
 @font-face {
-  font-family: HTS1-mono;
-  src: url("https://api.helsinkitypestudio.com/uploads/HTS_One_Mono_12b0ffc005.woff2");
+  font-family: "HTS-one-mono";
+  src: url(https://api.helsinkitypestudio.com/uploads/HTS_One_Mono_12b0ffc005.woff2)
+    format("woff2");
 }
 
 
