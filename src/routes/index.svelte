@@ -52,7 +52,7 @@
 	{#each exhibitions as exhibition}
 	{#if exhibition.meta.start == "2022-02-24" }
 	<a href="{exhibition.path}">
-		<p>exhibition {exhibition.meta.start} — {exhibition.meta.end}</p>
+		<p>previous {exhibition.meta.start} — {exhibition.meta.end}</p>
 		<h2>{exhibition.meta.title}</h2>
 		<br>
 	</a>
