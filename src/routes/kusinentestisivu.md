@@ -1,3 +1,3 @@
 # kusinentestisivu
 
-![kusi](https://pauliinaholma.com/kusi.png)
+![kusi](http://pauliinaholma.com/kusi.png)
