@@ -1,9 +1,9 @@
 <script>
-	import Kusi from '/src/routes/kusi.md' 
+	import Test from '/src/routes/test.md' 
 </script>
 
 <main>
 <content>
-<Kusi />
+<Test />
 </content>
 </main>
