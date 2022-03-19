@@ -1,5 +1,5 @@
 <script>
-	import Test from '/src/routes/test.md' 
+	import Test from '/src/routes/kusinentestisivu.md' 
 </script>
 
 <main>
