@@ -8,7 +8,7 @@
 
 <style>
 	.body {
-		margin-top: 39vw;
+		margin-top: 10vw;
 	}
 </style>
 

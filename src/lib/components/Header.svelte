@@ -1,5 +1,13 @@
 <!-- Header.svelte -->
 <style>
+	@keyframes hbg {
+  0%   { background: #ffaa33; }
+  25%  { background: #fc6124; }
+  50%  { background: #ff77ee; }
+  75%  { background: #fc6124; }
+  100% { background: #ffaa33; }
+}
+
 	header {
 		position: fixed;
 		top: 0;
@@ -7,7 +15,7 @@
 		margin: 0;
 		padding: 0.5vw 0;
 		width: 100vw;
-		color: #ff8800;;
+		color: #333;
 		background: #ff7b00;
 		animation: bg 18s infinite linear;
 	}

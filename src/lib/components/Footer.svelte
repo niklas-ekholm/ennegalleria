@@ -1,4 +1,11 @@
 <style>
+	@keyframes fbg {
+  0%   { background: #ffaa33; }
+  25%  { background: #fc6124; }
+  50%  { background: #ff77ee; }
+  75%  { background: #fc6124; }
+  100% { background: #ffaa33; }
+	}
 	footer {
 		height: 8vw;
 		margin: 0;
@@ -6,9 +13,9 @@
 		position: fixed;
 		bottom: 0;
 		width: 100%;
-		color: #ff7b00;;
+		color: #333;
 		background: #ff7b00;
-	  animation: bg 12s infinite linear;
+	  animation: bg 17s infinite linear;
 		
 	}
 	a {

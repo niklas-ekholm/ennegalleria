@@ -12,11 +12,11 @@ https://codepen.io/dmitriy_borodiy/pen/RKzwJp
 
 
 @keyframes bg {
-  0%   { background: #ffaa33; }
-  25%  { background: #fc6124; }
-  50%  { background: #ff77ee; }
-  75%  { background: #fc6124; }
-  100% { background: #ffaa33; }
+  0%   { background: #ffd6db; }
+  25%  { background: #fffba5; }
+  50%  { background: #c4e8a7; }
+  75%  { background: #acd5e4; }
+  100% { background: #ffd6db; }
 }
 
 @keyframes clr {
@@ -44,27 +44,33 @@ https://codepen.io/dmitriy_borodiy/pen/RKzwJp
     format("woff2");
 }
 
+@font-face {
+  font-family: "Circulono";
+  src: url(https://api.helsinkitypestudio.com/uploads/Circulono_Rounded_Medium_07a6d7c946.woff2)
+    format("woff2");
+}
+
 
 
 body {
   margin: 0;
-  background: #fc6124;
-	color:  #ff77ee;
+  background: #ffe5ac;
+	color:  #333;
   animation: clr 21s infinite linear;
   width: 100%;
-  font-family: "HTS-One-Mono",sans-serif;
-  font-size: 2.6vw;
+  font-family: "Circulono", monospace;
+  font-size: 3vw;
   font-style: normal;
   font-weight: normal;
   text-transform: none;
-  line-height: 1;
+  line-height: 1.5;
   font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
   -moz-font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
   -webkit-font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
   -ms-font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
   -o-font-feature-settings: "kern" on, "liga" on, "calt" on, "locl" on;
   font-variation-settings: "opsz" 100, "srfs" 30, "wght" 380;
-  // animation: vars 43s infinite ease both;
+  animation: bg 12s infinite linear;
   overflow-x: hidden;
   overflow-y: scroll;
   word-wrap: break-word;
@@ -78,9 +84,10 @@ main {
 
 content {
   position: absolute;
-  top: 9vw;
-  width: 100vw;
+  top: 18vw;
+  width: 93vw;
   z-index: -999;
+  padding-left: 6vw;
   padding-bottom: 33vh;
 }
 
@@ -153,9 +160,6 @@ ul {
   margin: 0;
 }
 
-img {
-  opacity: 70%;
-}
 
 p img {
   width: 75vw;

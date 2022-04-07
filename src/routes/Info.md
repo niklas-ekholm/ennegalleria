@@ -6,7 +6,4 @@ Helsinki 00180
 
 <br>
 
-open every day during exhibitions
-
-13:00 — 19:00
-
+open only during exhibitions

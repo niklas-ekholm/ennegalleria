@@ -33,7 +33,11 @@
 	<ul>
 		{#each exhibitions as exhibition}
 		<li>
-			<a href={exhibition.path}><p>{exhibition.meta.start} — {exhibition.meta.end}</p><h2> {exhibition.meta.title} </h2>
+			<a href={exhibition.path}>
+				<div>
+					<p>{exhibition.meta.start} — {exhibition.meta.end}</p>
+					<h3> {exhibition.meta.title} </h3>
+				</div>
 			</a>
 		</li>
 		<br/>
