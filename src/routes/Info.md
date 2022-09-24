@@ -6,4 +6,4 @@ Helsinki 00180
 
 <br>
 
-open only during exhibitions
+occasional gallery space
