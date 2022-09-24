@@ -12,17 +12,17 @@ https://codepen.io/dmitriy_borodiy/pen/RKzwJp
 
 
 @keyframes bg {
-  0%   { background: #ffd6db; }
-  25%  { background: #fffba5; }
-  50%  { background: #c4e8a7; }
-  75%  { background: #acd5e4; }
-  100% { background: #ffd6db; }
+  // 0%   { background: #ffd6db; }
+  // 25%  { background: #fffba5; }
+  // 50%  { background: #c4e8a7; }
+  // 75%  { background: #acd5e4; }
+  100% { background: #ff0; }
 }
 
 @keyframes clr {
-  0%   { color: #ffaa33; }
-  50%  { color: #ff77ee; }
-  100% { color: #ffaa33; }
+  // 0%   { color: #ffaa33; }
+  // 50%  { color: #ff77ee; }
+  100% { color: #ff0; }
 }
 
 @font-face { 
@@ -54,7 +54,7 @@ https://codepen.io/dmitriy_borodiy/pen/RKzwJp
 
 body {
   margin: 0;
-  background: #ffe5ac;
+  background: #ff0;
 	color:  #333;
   animation: clr 21s infinite linear;
   width: 100%;

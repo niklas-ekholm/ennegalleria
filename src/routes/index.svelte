@@ -45,14 +45,15 @@
 </style>
 
 <content>
-<a href="/exhibitions/2">
+<a href="/exhibitions/3">
 Launch party
 <br>
 <br>
-Books With Pictures
+<h1>Books With Pictures</h1>
 <br>
 <br>
 24 September 2022 18:00
+<br>
 <br>
 A selection of art publications and printed matter curated for @the.temporary.bookself by Kadri-Ann Kivisild (@kadirann) focusing on contemporary illustration, photography and their intersection.
 </content>
