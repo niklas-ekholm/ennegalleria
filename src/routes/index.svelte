@@ -46,22 +46,15 @@
 
 <content>
 <a href="/exhibitions/2">
-Exhibition<br>
+Launch party
 <br>
 <br>
-&emsp; Forty Three Days in Finland <br>
+Books With Pictures
 <br>
 <br>
-10 April 2022 <br>
-15:00 – 18:00 <br>
+24 September 2022 18:00
 <br>
-<br>
-Poems <br>
-by Haydée Touitou <br>
-<br>
-Images <br>
-by Hikari Nishida <br>
-</a>
+A selection of art publications and printed matter curated for @the.temporary.bookself by Kadri-Ann Kivisild (@kadirann) focusing on contemporary illustration, photography and their intersection.
 </content>
 
 
@@ -80,5 +73,3 @@ by Hikari Nishida <br>
 	{/if}
 	{/each}
 </div> -->
-
-<a href="/exhibitions/2"><img {src} alt="{alt}"></a>
