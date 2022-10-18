@@ -51,16 +51,21 @@
 </h1>
 <br>
 <br>
-Avajaiset lauantaina 22.10. klo 18.00 Enne-galleriassa. Tervetuloa!
+(7min 44sek)
+<br>
+<br>
+Avajaiset lauantaina 22.10. klo 18.00.
+<br>
+<br>
+Tervetuloa!
 <br>
 <br>
 Videoteoksen ensiesitys on kuudelta, jonka jälkeen se pyörii tilassa noin vartin välein.
 <br>
 <br>
-Osoite: Enne Galleria, Lönnrotinkatu 31, Helsinki
+Lönnrotinkatu 31, Helsinki
 <br>
-<br>
-Aika: Lauantai 22.10. klo 18.00–21.00
+Lauantai 22.10. klo 18.00–21.00
 </content>
 
 
