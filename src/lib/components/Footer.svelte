@@ -15,8 +15,7 @@
 		width: 100%;
 		color: #333;
 		background: #ff0;
-	  animation: bg 17s infinite linear;
-		
+	  animation: fbg 17s infinite linear;
 	}
 	a {
 		position: fixed;

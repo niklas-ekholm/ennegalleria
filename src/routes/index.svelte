@@ -45,17 +45,18 @@
 </style>
 
 <content>
-<a href="/exhibitions/3">
-Launch party
+<a href="/exhibitions/4">
+<h1>
+	OSRTIOGRIYN (7min 44sek)
+</h1>
 <br>
 <br>
-<h1>Books With Pictures</h1>
+Avajaiset lauantaina 22.10. klo 18.00 Enne-galleriassa. Tervetuloa!
+Videoteoksen ensiesitys on kuudelta, jonka jälkeen se pyörii tilassa noin vartin välein.
 <br>
 <br>
-24 September 2022 18:00
-<br>
-<br>
-A selection of art publications and printed matter curated for @the.temporary.bookself by Kadri-Ann Kivisild (@kadirann) focusing on contemporary illustration, photography and their intersection.
+Osoite: Enne Galleria, Lönnrotinkatu 31, Helsinki
+Aika: Lauantai 22.10. klo 18.00–21.00
 </content>
 
 
