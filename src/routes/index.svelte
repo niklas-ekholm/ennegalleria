@@ -47,7 +47,7 @@
 <content>
 <a href="/exhibitions/4">
 <h1>
-	OSRTIOGRIYN (7min 44sek)
+	OSRTIOGRIYN
 </h1>
 <br>
 <br>
