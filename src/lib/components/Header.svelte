@@ -2,7 +2,8 @@
 <style>
 	@keyframes hbg {
 		0%   { background: #c34abb; }
-  100% { background: #3f67cb; }
+  50% { background: #3f67cb; }
+  100%   { background: #c34abb; }
 }
 
 	header {

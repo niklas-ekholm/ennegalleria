@@ -1,7 +1,8 @@
 <style>
 	@keyframes fbg {
-  0%   { background: #c34abb; }
-  100% { background: #3f67cb; }
+		0%   { background: #c34abb; }
+  50% { background: #3f67cb; }
+  100%   { background: #c34abb; }
 	}
 	footer {
 		height: 8vw;

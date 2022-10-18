@@ -13,12 +13,14 @@ https://codepen.io/dmitriy_borodiy/pen/RKzwJp
 
 @keyframes bg {
   0%   { background: #c34abb; }
-  100% { background: #3f67cb; }
+  50% { background: #3f67cb; }
+  100%   { background: #c34abb; }
 }
 
 @keyframes clr {
   0%   { background: #c34abb; }
-  100% { background: #3f67cb; }
+  50% { background: #3f67cb; }
+  100%   { background: #c34abb; }
 }
 
 @font-face { 
@@ -54,7 +56,7 @@ body {
 	color:  #333;
   animation: clr 21s infinite linear;
   width: 100%;
-  font-family: "Oro", "Oro-JP", sans-serif;
+  font-family: "Circulono", monospace;
   font-size: 3vw;
   font-style: normal;
   font-weight: normal;
